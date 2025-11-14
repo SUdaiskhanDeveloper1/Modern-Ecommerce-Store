@@ -43,7 +43,7 @@ export default function CheckoutModal({ isOpen, onClose }) {
           </button>
         </div>
 
-        {/* Form */}
+      
         <form
           onSubmit={handleSubmit}
           className="p-4 sm:p-6 space-y-3 sm:space-y-4"
@@ -94,7 +94,7 @@ export default function CheckoutModal({ isOpen, onClose }) {
             className="w-full px-3 py-2 border rounded-md text-sm sm:text-base"
           />
 
-          {/* Payment */}
+         
           <h1 className="text-base sm:text-lg text-[#0c1c3a] pl-1">Payment</h1>
           <div className="flex items-center gap-2 pl-1">
             <input
@@ -113,7 +113,7 @@ export default function CheckoutModal({ isOpen, onClose }) {
             </label>
           </div>
 
-          {/* Button */}
+          
           <button
             type="submit"
             className="w-full bg-[#0c1c3a] text-white py-2 sm:py-3 rounded hover:opacity-90 transition text-sm sm:text-base"

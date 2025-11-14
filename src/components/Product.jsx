@@ -45,23 +45,21 @@ export default function Products() {
             key={product.id}
             className="relative bg-white rounded-lg shadow hover:shadow-lg overflow-hidden group transition-shadow"
           >
-            {/* Badge */}
+           
             <span className="absolute top-2 left-2 bg-black text-yellow-400 text-xs font-bold px-2 sm:px-3 py-0.5 rounded z-10">
               SALE
             </span>
 
-            {/* Image */}
+         
             <img
               src={product.image || "/placeholder.svg"}
               alt={product.title}
               className="w-full h-32 sm:h-40 md:h-48 object-contain bg-[#1E2A38] p-3 sm:p-4"
             />
 
-            {/* Hover Buttons */}
+            
             <div className="absolute top-2 right-2 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity z-10">
-              <button className="bg-white p-1.5 rounded-full shadow hover:bg-yellow-400 hover:text-white text-sm transition-colors">
-                ❤
-              </button>
+            
 
               <button
                 onClick={() => addToCart(product)}
@@ -70,12 +68,10 @@ export default function Products() {
                 🛒
               </button>
 
-              <button className="bg-white p-1.5 rounded-full shadow hover:bg-yellow-400 hover:text-white text-sm transition-colors">
-                🔍
-              </button>
+             
             </div>
 
-            {/* Details */}
+           
             <div className="p-3 sm:p-4 text-center bg-[#0c1c3a]">
               <h3 className="text-xs sm:text-sm font-semibold text-white text-left mb-2 line-clamp-2 min-h-[2.5rem]">
                 {product.title}

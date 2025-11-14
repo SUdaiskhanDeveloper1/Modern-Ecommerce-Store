@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#0c1c3a] text-white py-8 sm:py-10 lg:py-12 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-        {/* Logo Section */}
+        
         <div className="text-center sm:text-left">
           <h2 className="text-xl sm:text-2xl font-bold text-yellow-400 mb-3 sm:mb-4">HS-Store</h2>
           <div className="flex justify-center sm:justify-start space-x-4">
@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Support */}
+       
         <div className="text-center sm:text-left">
           <h3 className="font-semibold text-base sm:text-lg mb-3 sm:mb-4">Support</h3>
           <ul className="space-y-2">
@@ -48,7 +48,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Legal */}
+      
         <div className="text-center sm:text-left">
           <h3 className="font-semibold text-base sm:text-lg mb-3 sm:mb-4">Legal</h3>
           <ul className="space-y-2">
@@ -80,18 +80,18 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Contact */}
+       
         <div className="text-center sm:text-left">
           <h3 className="font-semibold text-base sm:text-lg mb-3 sm:mb-4">Contact</h3>
           <p className="text-xs sm:text-sm mb-3">
             <i className="fa-solid fa-location-dot mr-2"></i>
-            Professional Services Hub <br />
-            123 Main Street, Suite 456 <br />
-            New York, NY 10001 USA
+            Professional Services Provided by SK <br />
+            G-11 <br />
+            Lahore, Pakistan
           </p>
           <p className="text-xs sm:text-sm mb-4">
             <i className="fa-solid fa-envelope mr-2"></i>
-            help@HS-Store.com
+            help@Store.com
           </p>
 
           <div className="flex justify-center sm:justify-start space-x-2 sm:space-x-4">
@@ -110,7 +110,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-xs sm:text-sm text-gray-400 mt-8 sm:mt-10 border-t border-gray-700 pt-4 sm:pt-6">
-        © 2025 E-commerce | All rights reserved
+        © 2025 E-commerce | All rights reserved by SK
       </div>
     </footer>
   )

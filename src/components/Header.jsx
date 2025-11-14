@@ -32,7 +32,7 @@ export function Header({
   return (
     <>
       <header className="w-full flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 min-h-[70px] sm:h-[80px] shadow-md bg-[#0c1c3a] text-yellow-400 relative z-50">
-        {/* Logo */}
+      
         <Link to="/" className="flex-shrink-0">
           <div className="flex justify-center items-center">
             <h1 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-3xl font-bold">
@@ -44,7 +44,7 @@ export function Header({
           </div>
         </Link>
 
-        {/* Desktop Navbar Links - Hidden on mobile */}
+       
         <ul className="hidden lg:flex gap-4 xl:gap-6 text-white font-medium">
           <li className="hover:text-yellow-400 cursor-pointer transition-colors">
             Mens
@@ -63,9 +63,9 @@ export function Header({
           </li>
         </ul>
 
-        {/* Right Section */}
+       
         <div className="flex items-center gap-2 sm:gap-4">
-          {/* Search Box */}
+        
           <form
             onSubmit={handleSearchSubmit}
             className="flex items-center gap-1 sm:gap-2"
@@ -85,7 +85,7 @@ export function Header({
             </button>
           </form>
 
-          {/* User Icon */}
+      
           <div className="relative">
             <button
               onClick={handleIconClick}
@@ -106,7 +106,7 @@ export function Header({
             )}
           </div>
 
-          {/* Cart Icon */}
+       
           <button
             onClick={() => setCartOpen(true)}
             className="relative flex items-center justify-center bg-yellow-400 text-black w-8 h-8 sm:w-10 sm:h-10 rounded-full hover:bg-black hover:text-yellow-400 transition-colors"
@@ -121,7 +121,7 @@ export function Header({
         </div>
       </header>
 
-      {/* Cart Sidebar */}
+     
       <CartSidebar isOpen={cartOpen} onClose={() => setCartOpen(false)} />
     </>
   );

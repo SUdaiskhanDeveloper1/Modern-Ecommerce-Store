@@ -8,7 +8,7 @@ export default function CartSidebar({ isOpen, onClose }) {
 
   return (
     <>
-      {/* Overlay background */}
+    
       <div
         onClick={onClose}
         className={`fixed inset-0 bg-black/30 z-40 transition-opacity ${
@@ -21,7 +21,7 @@ export default function CartSidebar({ isOpen, onClose }) {
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        {/* Header */}
+      
         <div className="flex justify-between items-center p-4 sm:p-6 border-b">
           <h2 className="text-lg sm:text-xl font-bold text-[#0c1c3a]">
             Shopping Cart
@@ -53,7 +53,7 @@ export default function CartSidebar({ isOpen, onClose }) {
                     {item.title}
                   </h3>
                   <p className="text-gray-600 text-sm mb-2">${item.price}</p>
-                  {/* Quantity Controls */}
+                 
                   <div className="flex items-center border rounded-md w-24 sm:w-28 justify-between bg-white">
                     <button
                       onClick={() => updateQuantity(item.id, -1)}

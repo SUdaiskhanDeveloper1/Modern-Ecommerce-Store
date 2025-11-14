@@ -38,7 +38,7 @@ function App() {
       />
 
       <Routes>
-        {/* Home Page */}
+      
         <Route
           path="/"
           element={
@@ -62,13 +62,13 @@ function App() {
           }
         />
 
-        {/* Search Page */}
+       
         <Route
           path="/search"
           element={<SearchResults searchQuery={searchQuery} />}
         />
 
-        {/* Login Page */}
+       
         <Route
           path="/login"
           element={

@@ -51,7 +51,7 @@ export default function LoginForm({ setIsLoggedIn, setUser }) {
               onSubmit={handleSubmit}
               className="bg-white shadow-xl rounded-xl px-6 sm:px-8 py-8 sm:py-10"
             >
-              {/* Form Header */}
+            
               <div className="text-center mb-6 sm:mb-8">
                 <h2 className="text-2xl sm:text-3xl font-bold mb-2 text-[#0c1c3a]">
                   Sign In
@@ -61,7 +61,7 @@ export default function LoginForm({ setIsLoggedIn, setUser }) {
                 </p>
               </div>
 
-              {/* Username */}
+              
               <div className="mb-4 sm:mb-6">
                 <label
                   htmlFor="username"
@@ -85,7 +85,7 @@ export default function LoginForm({ setIsLoggedIn, setUser }) {
                 )}
               </div>
 
-              {/* Password */}
+           
               <div className="mb-4 sm:mb-6">
                 <label
                   htmlFor="password"
@@ -122,7 +122,7 @@ export default function LoginForm({ setIsLoggedIn, setUser }) {
                 )}
               </div>
 
-              {/* Forgot Password */}
+             
               <div className="text-right mb-4 sm:mb-6">
                 <a
                   href="#"
@@ -132,7 +132,7 @@ export default function LoginForm({ setIsLoggedIn, setUser }) {
                 </a>
               </div>
 
-              {/* Submit */}
+             
               <button
                 type="submit"
                 className="w-full text-white font-semibold py-2.5 sm:py-3 px-4 rounded-lg bg-[#0c1c3a] hover:bg-opacity-90 transition-colors text-sm sm:text-base"
@@ -140,7 +140,7 @@ export default function LoginForm({ setIsLoggedIn, setUser }) {
                 Sign In
               </button>
 
-              {/* Social Login */}
+              
               <div className="mt-6 sm:mt-8">
                 <div className="relative">
                   <div className="absolute inset-0 flex items-center">
