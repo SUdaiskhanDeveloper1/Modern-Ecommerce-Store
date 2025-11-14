@@ -84,6 +84,7 @@ export default function Footer() {
         <div className="text-center sm:text-left">
           <h3 className="font-semibold text-base sm:text-lg mb-3 sm:mb-4">Contact</h3>
           <p className="text-xs sm:text-sm mb-3">
+
             <i className="fa-solid fa-location-dot mr-2"></i>
             Professional Services Provided by SK <br />
             G-11 <br />
